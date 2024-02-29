@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://t4.ftcdn.net/jpg/04/61/23/23/360_F_461232389_XCYvca9n9P437nm3FrCsEIapG4SrhufP.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 100%;
+    max-width: 500px;
+    background:linear-gradient(135deg,rgb(9, 116, 120),rgb(203, 239, 239));
+    border-radius: 20px;
+    padding: 35px 35px;
+    color: rgb(19, 17, 17);
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    height: 55px;
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.search i{
+   position: absolute;
+   left: 10px;
+   font-size: 28px;
+   top: 10px;
+    
+}
+
+.search input{
+
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ background: transparent;
+ border: 2px solid rgb(13, 72, 71);
+ outline: none;
+ border-radius: 10px;
+ font-size: 20px;
+ color: rgb(15, 12, 12);
+ font-weight: 400;
+ padding: 0 48px 0 42px;
+text-transform: uppercase;
+}
+.search input::placeholder{
+    color: white;
+    font-size: 20px;
+}
+.search button{
+    position: absolute;
+    right: 10px;
+    width: 40px;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 28px;
+    color: black;
+    padding:0 40px 0 5px;
+    cursor: pointer;
+
+
+   
+    
+    
+}
+.error img{
+    width: 300px;
+    height: 300px;
+    margin-top: 80px;
+}
+.error{
+    display: none;
+}
+h1{
+    color: rgb(9, 33, 33);
+    margin-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.time_date{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.weather-box{
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+.weather-box img{
+    width: 25%;
+}
+.weather-box .temperature{
+    position: relative;
+    font-size: 58px;
+    line-height: 1;
+    font-weight: 700;
+    margin: 20px 0 6px -13px;
+}
+.weather-box .temperature span{
+    position: absolute;
+    font-size: 24px;
+    margin-left: 4px;
+}
+.weather-box .description{
+    font-size: 22px;
+    font-weight: 500;
+    
+    
+}
+.weather-details{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    
+}
+  .weather-details .humidity, .weather-details .wind,.weather-details .pressure{
+    flex: 0 0 7rem;
+    margin-left: 20px;
+    text-align: center;
+  
+  
+} 
+
+.weather-details i{
+    font-size: 50px;
+    margin-left: 10px;
+}
+.weather-details span{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 300;
+}
+.pressure img{
+    width: 59px;
+    height: 45px;
+}
+.weather_container{
+    display: none;
+}
+
+
+
+ 
+
